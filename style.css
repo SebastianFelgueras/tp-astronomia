@@ -1,0 +1,27 @@
+* {cursor: url(https://cur.cursors-4u.net/nature/nat-11/nat1005.cur), auto !important;}
+.body{
+    /*background-image: url("https://www.blogbankia.es/recursos/img/blog/20190611/julio-2019/cuanto-cobra-un-astronauta-mini-783x412.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    background-image: url("fondo.png");
+}
+.principal{
+    background-color: rgb(200, 200, 200);
+    width: 50%;
+    margin: auto;
+}
+h1{
+    text-align: center;
+    font-family: monospace;
+    color: royalblue;
+}
+.creditos{
+    color: grey;
+    font-size: 15;
+    text-align: left;
+}
+.aclaraciones{
+    color: grey;
+    text-align: left;
+    font-family: Cambria;
+}
