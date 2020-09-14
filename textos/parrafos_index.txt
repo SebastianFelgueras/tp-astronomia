@@ -1,0 +1,8 @@
+Se efectuó el día 12 de septiembre en Buenos Aires (latitud 34° 36’ SUR). Por el Stellarium, sabemos que la declinación del Sol para esa fecha fue de +3° 49’ y su altura esperada para su culminación superior fue de 51° 36’. 
+Se utilizó una cinta métrica, cuya mínima apreciación es de 1 milímetro. El gnomon elegido mide 30cm.
+La primera medición se tomó a las 8:50 de la mañana y, cada una hora, se volvió a medir el largo de la sombra, hasta las 15:50, hora de la última medición, debido a que, luego, el Sol fue tapado por un edificio cercano, lo cual impidió continuar con las mediciones.
+La culminación superior del Sol se produjo a las 12:50 y, como se esperaba, la sombra correspondiente fue la de menor longitud (24 cm).
+Realizados los cálculos descritos en la introducción, obtuvimos que la altura del Sol en su culminación fue de 51° 20’ y, con este dato, calculamos latitud o altura del polo visible (PSC) a partir de la altura calculada y la declinación del Sol de ese día. El valor obtenido fue de 34° 51’. 
+Cabe notar que los valores obtenidos en esta primera medición difieren de los esperados en alrededor de 20’, es decir que el error fue de menos de medio grado. ¡Hurra! El método parece ser bastante fiable.
+
+
