@@ -14,6 +14,6 @@ templateLoader = FileSystemLoader(searchpath="./templates")
 templateEnv = Environment(loader=templateLoader)
 for template in renderizar:
     outputText = templateEnv.get_template(template).render()  # this is where to put args to the template renderer
-    with open(f"templates_renderizadas\\{template}",mode="w",encoding="utf8") as final:
+    with open(f"docs\\{template}",mode="w",encoding="utf8") as final:
         final.write(outputText)
 print("Templates renderizadas")
