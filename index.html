@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!-- h1 titulo h3 aclaraciones h2 subtitulos h6 creditos -->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            Latitud del lugar: 
+        </title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link href="style.css" rel="stylesheet">
+        <link href="icon.ico" rel="shortcut icon">
+    </head>
+    <body class="body">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">Introducción</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="medicion1.html">Medicion 1 <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="medicion2.html">Medicion 2</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="equinoccio.html">Equinoccio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="posicion.html">Posición</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="gnomon.html">Posición del gnomon</a>
+                  </li>
+              </ul>
+            </div>
+          </nav>
+        <div class="principal" id="principal">
+            <br />
+            <br />
+            <h1>Introducción</h1>
+            <br />
+            <br />
+            
+<p class="texto">El <strong>objetivo</strong> del trabajo práctico consiste en encontrar la latitud del lugar valiéndonos de algunas relaciones angulares sobre la esfera celeste, del Sol y un gnomon designado a dar sombra durante el día. </p>
+<p class="texto">Debido a la <strong>rotación de la Tierra</strong> sobre su propio eje, en sentido oeste-este, la esfera celeste aparenta arrastrar consigo los astros en el sentido contrario. Este efecto se conoce como movimiento aparente del Sol. Si el eje del mundo no coincide con la vertical del lugar, es decir, si el observador no se encuentra en los polos, las estrellas parecen girar "inclinadas". Por tanto, para todo observador no ubicado en los polos terrestres, todo objeto cambiará su altura a lo largo del día.</p>
+<br />
+<img class="imagenes" src="index/imagen1.png"/>
+<br />
+<br />
+<p class="texto">Para realizar las relaciones angulares, utilizaremos dos distintos sistemas de coordenadas: el sistema de coordenadas acimutal y el sistema de coordenadas ecuatorial.</p>
+<p class="texto">En el <strong>sistema de coordenadas acimutal</strong>, vamos a ubicar el plano del horizonte (división "natural" del cielo por la línea del horizonte que está contenida en un plano), la vertical del lugar (la recta perpendicular al plano del horizonte que contiene al observador), y el cenit y el nadir (intersecciones de la vertical de lugar con la esfera celeste). Utilizaremos la coordenada de la altura (h) que consiste en el ángulo entre la estrella en cuestión y el horizonte.</p>
+<p class="texto">En el <strong>sistema de coordenadas ecuatorial</strong>, situaremos el eje del mundo y las intersecciones de éste con la esfera celeste (los polos celestes), el ecuador celeste (plano que contiene al observador y es perpendicular al eje del mundo), y el meridiano de lugar que contiene a los dos polos celestes, al cenit y al nadir. El meridiano de lugar resulta fundamental para los fines del trabajo práctico porque, además de que el movimiento aparente diurno de las estrellas resulta simétrico a él, las estrellas alcanzan su mayor y menor altura sobre el horizonte donde su trayectoria interseca con el meridiano de lugar, es decir donde culminan.</p>
+<br />
+<img class="imagenes" src="index/ST.png"/>
+<br />
+<br />
+<p class="texto">Los <strong>ángulos</strong> que vamos a utilizar están en el plano del meridiano del lugar. Primero, la altura (h) del astro que nos ayudará a conocer nuestra latitud de lugar, osea el Sol, se corresponde con el ángulo entre el astro y su proyección sobre el horizonte. La declinación del sol (&delta;) es la proyección del paralelo celeste que contiene al astro y el ecuador celeste. La latitud del lugar (&Phi;) que consiste en la altura del polo elevado, ya que es el ángulo entre el horizonte y el eje del mundo.</p>
+<br />
+<img class="ecuaciones" src="https://latex.codecogs.com/gif.latex?\bg_white&space;\left&space;|&space;h_{\odot&space;}\right|&space;&plus;&space;\left&space;|&space;\phi&space;\right&space;|-&space;\left&space;|&space;\delta&space;\right&space;|&space;=&space;90^{\circ}" title="\left | h_{\odot }\right| + \left | \phi \right |- \left | \delta \right | = 90^{\circ}" />
+<br />
+<img class="ecuaciones" src="https://latex.codecogs.com/png.latex?\bg_white&space;\left&space;|&space;\phi&space;\right&space;|=&space;90^{\circ}&space;-&space;\left&space;|&space;h&space;\right|&plus;\left&space;|&space;\delta&space;\right&space;|" title="\left | \phi \right |= 90^{\circ} - \left | h \right|+\left | \delta \right |" />
+<br />
+<img class="imagenes" src="index/ST3.png"/>
+<br />
+<br />
+<p class="texto">Ahora que tenemos los ángulos que utilizaremos en el plano de lugar, explicaremos cuál es la función del gnomon y qué información nos brinda. El objeto fino que escogimos tendrá como objetivo proyectar su sombra de la cual nosotros registramos su largo durante el día. <strong class="rojo">El gnomon debe ser protegido y no debe ser movido bajo ninguna circunstancia.</strong></p>
+<p class="texto">En nuestras mediciones, la más importante es el momento en donde <strong>la sombra es más pequeña</strong>, ya que esto significa que el Sol está en su máxima altura y por lo tanto culminando superiormente.</p>
+<p class="texto">Pensamos en un <strong>triángulo rectángulo</strong>. Uno de los catetos consiste en la altura del gnomon y el otro en el largo de la sombra de éste. La hipotenusa consiste en una línea imaginaria que conecta al Sol con el último punto de la sombra del gnomon. El ángulo entre la hipotenusa y el cateto sombra nos dará la altura del Sol sobre el horizonte, el cual calculamos mediante su tangente, que sería el cociente entre la altura del gnomon y la longitud de su sombra.</p>
+<br />
+<img class="imagenes" src="index/STp1.png"/>
+<br />
+<br />
+<img class="ecuaciones" src="https://latex.codecogs.com/png.latex?\bg_white&space;tg(h{\odot})=\frac{h{g}}{s}" title="tg(h{\odot})=\frac{h{g}}{s}" />
+<br />
+<p class="texto">De esta forma, conociendo la altura del Sol sobre el horizonte y con la ayuda de algunas relaciones entre ángulos, fuimos capaces de calcular la latitud del lugar.</p>
+
+            <h6 class="creditos"><ul>Por Carolina Kung, Donatella Valeria Orofino y Sebastián Felgueras</ul></h6>
+        </div>
+    </body>
+</html>
