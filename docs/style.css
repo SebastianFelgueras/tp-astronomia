@@ -38,6 +38,8 @@ h1{
 }
 .cuadros{
     margin-left: 25%;
+    height: 25%;
+    width: inherit;
 }
 .ecuaciones{
     margin-left: 2%;
