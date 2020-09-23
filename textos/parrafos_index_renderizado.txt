@@ -1,5 +1,7 @@
-<p class="texto">Durante el experimento, nos surgió un interrogante…</p>
-<p class="texto">¿Cambia que movamos el gnomon cuando realizamos las mediciones? ¿Afecta la longitud de su sombra?</p>
-<p class="texto">Al principio, sin ningún fundamento alguno, creíamos que sí afectaba la longitud de la sombra y que debíamos proteger el gnomon a toda costa. Sin embargo, luego de reflexionarlo profundamente, llegamos a la conclusión de que un pequeño desplazamiento no afecta en forma sensible las mediciones. Esto se debe a que los rayos del sol, por la distancia de esta estrella a nosotros, inciden con un ángulo virtualmente idéntico si nos desplazamos (o desplazamos el gnomon) apenas unos metros. </p>
-<p class="texto">Para probar la idea, una compañera se midió la sombra del palito ubicado en dos sitios distintos de su terraza, pero a la misma hora… </p>
-<p class="texto"></p>
+<p class="texto">La tercera (y última) medición que realizamos la hicimos durante el equinoccio, que este año sucedió el 22 de septiembre.</p>
+<p class="texto">Al igual que las otras dos se hizo en la Ciudad de Buenos Aires y, gracias al Stellarium sabemos que la declinación del sol fue de 55º 27' y su culminación superior fue a los - 0º 3'</p>
+<p class="texto">Durante la toma de mediciones, se presentaron varios inconvenientes que nos forzaron a mover el gnomon. Estos fueron la superposición de la sombra del gnomon con otras varias sombras pertenecientes a la estructura del balcón. Sin embargo, igualmente se puede observar a partir de las imágenes que se encuentran aquí debajo, que la sombra del sol a lo largo del día trazó una línea recta con dirección Este-Oeste.</p>
+<p class="texto">Aquí a continuación se encuentran las imágenes y la tabla con las mediciones y la altura del sol calculada.</p>
+<p class="texto">TABLA</p>
+<p class="texto">IMAGENES</p>
+<p class="texto">VIDEO/GIF</p>
