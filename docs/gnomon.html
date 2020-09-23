@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <title>
-            Latitud del lugar: Posición
+            Latitud del lugar: Posición del gnomon
         </title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
         <link href="style.css" rel="stylesheet">
@@ -39,15 +39,20 @@
         <div class="principal" id="principal">
             <br />
             <br />
-            <h1></h1>
+            <h1>Posición del gnomon</h1>
             <br />
             <br />
-                        
-<h3 class="aclaraciones">En esta imágen puede ver su longitud y latitud actuales:</h3>
-<canvas id="geolocalizacion">Canvas no soportado en este navegador</canvas>
-<script src="geolocalizacion.js" type="text/javascript"></script>
+            
+<p class="texto">Durante el experimento, nos surgió un interrogante…</p>
+<p class="texto">¿Cambia que movamos el gnomon cuando realizamos las mediciones? ¿Afecta la longitud de su sombra?</p>
+<p class="texto">Al principio, sin ningún fundamento alguno, creíamos que sí afectaba la longitud de la sombra y que debíamos proteger el gnomon a toda costa. Sin embargo, luego de reflexionarlo profundamente, llegamos a la conclusión de que un pequeño desplazamiento no afecta en forma sensible las mediciones. Esto se debe a que los rayos del sol, por la distancia de esta estrella a nosotros, inciden con un ángulo virtualmente idéntico si nos desplazamos (o desplazamos el gnomon) apenas unos metros. </p>
+<p class="texto">Para probar la idea, una compañera se midió la sombra del palito ubicado en dos sitios distintos de su terraza, pero a la misma hora… </p>
+<video class="cuadros" controls>
+    <source src="posicion_gnomon/gnomon.mp4" type="video/mp4">
+</video>
 
             <h6 class="creditos"><ul>Por Carolina Kung, Donatella Valeria Orofino y Sebastián Felgueras</ul></h6>
+            <h6 class="creditos"><ul>El código de esta página fue programado casi enteramente por nosotros y se encuentra en <a href="https://github.com/sebipincha/tp-astronomia">este repositorio</a> para su libre utilización</ul></h6>
         </div>
     </body>
 </html>
