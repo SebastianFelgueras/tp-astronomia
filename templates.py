@@ -1,7 +1,7 @@
 #los nombres de los archivos y eso puede parecer arcaico pero es para poder usarlo con github pages
 from jinja2 import Environment, FileSystemLoader
 
-renderizar = ["index.html","posicion.html","medicion1.html","medicion2.html","gnomon.html","equinoccio.html"] #es demasiado obtenerlas automaticamente, igual van a ser 5 archivos, no se justifica
+renderizar = ["index.html","posicion.html","medicion1.html","medicion2.html","gnomon.html","equinoccio.html","errores_experimentales.html"] #es demasiado obtenerlas automaticamente, igual van a ser 5 archivos, no se justifica
 
 
 with open("textos\\parrafos_index.txt",encoding="utf8") as archivo:

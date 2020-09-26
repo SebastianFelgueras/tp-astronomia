@@ -18,6 +18,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="gnomon.html">Posición del gnomon</a>
+                </li>
                 <li class="nav-item active">
                   <a class="nav-link" href="medicion1.html">Medicion 1 <span class="sr-only">(current)</span></a>
                 </li>
@@ -28,11 +31,12 @@
                   <a class="nav-link" href="equinoccio.html">Equinoccio</a>
                 </li>
                 <li class="nav-item">
+                  <a class="nav-link" href="errores_experimentales.html">Errores experimentales</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="posicion.html">Posición</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="gnomon.html">Posición del gnomon</a>
-                  </li>
+                  
               </ul>
             </div>
           </nav>
@@ -43,10 +47,8 @@
             <br />
             <br />
             
-<img class="cuadros" src="medicion2/tabla1.png"/>
-<br />
-<br />
-<p class="texto">El dispositivo que utilizamos como gnomon es una lata de Burger King que mide 19.8 centímetros de largo. Realizamos las mediciones el día 16 de septiembre a las 8:30 am y volvimos a medir cada 30 minutos. Alrededor de las 12:30, cuando juzgamos que la culminación superior del Sol se acercaba, nos quedamos cerca del gnomon y registramos la longitud menor de la sombra a las 12:45 que medía 15,8 cm.</p>
+<p class="texto">Se llevó a cabo el día 16 de septiembre en Buenos Aires (latitud 34° 36’ SUR). Gracias al Stellarium, sabemos que la declinación del Sol para esa fecha fue de +2° 17’ y su altura esperada para su culminación superior fue de 53° 07’.</p>
+<p class="texto">Se eligió como instrumento de medición una cinta métrica, cuya mínima apreciación es de 1 milímetro. El gnomon elegido fue una lata que mide 19,8 cm.</p>
 <br />
 <br />
 <img class="imagenes" src="medicion2/desde_arriba.jpg"/>
@@ -55,23 +57,19 @@
 <img class="imagenes" src="medicion2/de_costado.jpg"/>
 <br />
 <br />
+<p class="texto">La primera medición se tomó a las 8:30 de la mañana y cada 30 minutos se volvió a medir el largo de la sombra, hasta las 14:30, hora de la última medición, debido a que, luego, el Sol fue ocultado por un edificio cercano, lo cual impidió continuar con las mediciones.</p>
+<p class="texto">La culminación superior del Sol ocurrió alrededor de las 12:45, como se esperaba, y la sombra correspondiente fue la de menor longitud (15,8 cm). </p>
+<br />
+<img class="cuadros" src="medicion2/tabla1.png"/>
+<br />
+<br />
 <video class="cuadros" controls>
     <source src="medicion2/video.mp4" type="video/mp4">
 </video>
 <br />
-<p class="texto">Para realizar los cálculos, primero imaginamos un triángulo rectángulo cuyos catetos serán la altura del gnomon y la menor longitud de la sombra. La hipotenusa consistirá en una línea imaginaria que pasa desde el Sol hasta el último punto de la sombra. El ángulo entre el cateto sombra y la hipotenusa será la altura del sol que podemos calcular por trigonometría.</p>
 <br />
-<img class="ecuaciones" src="https://latex.codecogs.com/gif.latex?\bg_white&space;tg\left(h_{\bigodot}\right)=\frac{19,8cm}{15,8cm}\" title="tg\left(h_{\bigodot}\right)=\frac{19,8cm}{15,8cm}\" />
-<br />
-<img class="ecuaciones" src="https://latex.codecogs.com/gif.latex?\bg_white&space;h_{\bigodot}=51,41084002^{\circ}=51^{\circ}24{}'38.92{}''" title="h_{\bigodot}=51,41084002^{\circ}=51^{\circ}24{}'38.92{}''" />
-<br />
-<br />
-<p class="texto">Luego, con el dato de la altura del Sol sobre el horizonte y la declinación del Sol en el día de la fecha siendo 2° 16’ 35’’ (según los datos del Stellarium), calculamos la altura del polo más elevado, que es equivalente a la latitud del lugar.</p>
-<br />
-<img class="ecuaciones" src="https://latex.codecogs.com/gif.latex?\bg_white&space;\left&space;|\varphi&space;\right&space;|=90^{\circ}-(51^{\circ}24{}'38.92{}'')-(2^{\circ}16{}'35{}'')=36^{\circ}18{}'45,98{}''" title="\left |\varphi \right |=90^{\circ}-(51^{\circ}24{}'38.92{}'')-(2^{\circ}16{}'35{}'')=36^{\circ}18{}'45,98{}''" />
-<br />
-<br />
-<p class="texto">La latitud real del lugar es 34° 36’ 30’’ sur, por lo que hay un error de 1° 42’ 15,98’’, es decir, un poco menos de dos grados. Factiblemente este error se deba a las condiciones de la medición, en donde el instrumento utilizado (una cinta métrica) constaba de una apreciación mínima de 1 milímetro, y también debido a que los límites de la sombra no eran claros. Además, no conocía con absoluta precisión el momento de la culminación superior del Sol, por tanto, es probable que haya sucedido unos minutos después o antes. Sin embargo, el error no es demasiado grande en relación a la magnitud medida y tomando en cuenta las dificultades recién mencionadas. En líneas generales, ¡se pudo confiar en el método!</p>
+<p class="texto">Realizados los cálculos descritos en la introducción, obtuvimos que la altura del Sol en su culminación fue de 51° 25’ y, con este dato, calculamos latitud o altura del polo visible (PSC) a partir de la altura calculada y la declinación del Sol de ese día. El valor obtenido fue de 36° 18’.</p>
+<p class="texto">Cabe notar que los valores obtenidos en esta primera medición difieren de los esperados en alrededor de 1° 42’, es decir que el error fue de menos de medio grado. En líneas generales, ¡se pudo confiar en el método!</p>
 
             <h6 class="creditos"><ul>Por Carolina Kung, Donatella Valeria Orofino y Sebastián Felgueras</ul></h6>
             <h6 class="creditos"><ul>El código de esta página fue programado casi enteramente por nosotros y se encuentra en <a href="https://github.com/sebipincha/tp-astronomia">este repositorio</a> para su libre utilización</ul></h6>

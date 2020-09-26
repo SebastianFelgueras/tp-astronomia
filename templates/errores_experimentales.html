@@ -1,8 +1,16 @@
+{% extends "root.html" %}
+{% block header %}Errores experimentales{% endblock %}
+{% block titulo %}Errores experimentales{% endblock %}
+{% block principal %}
 <p class="texto">En este apartado procederemos a explicar las distintas causas de error experimental que surgieron durante las mediciones.</p>
-<p class="texto">Medición 1 = 0,72%</p>
-<p class="texto">Medición 2 = 4,91%</p>
-<p class="texto">Medición 3 - Equinoccio = 4,14%</p>
+<ul>
+    <li>Medición 1 = 0,72%</li>
+    <li>Medición 2 = 4,91%</li>
+    <li>Medición 3 - Equinoccio = 4,14%</li>
+</ul>
 <p class="texto">Por un lado, es importante tener en cuenta que en las mediciones 2 y 3 (especialmente en esta última) fueron realizadas en balcones donde el acceso a luz era a veces bloqueado por barandas, rejas y diversos obstáculos. Esto provocó que fuera complejo distinguir la sombra del gnomon de las otras.</p>
 <p class="texto">Por otro lado, es cierto que el ancho de los gnomones no fue el ideal: deberían haber sido más finos. Sin embargo, hay más de una justificación para esta lamentable situación. En primer lugar, resultaba de suma dificultad hallar un objeto largo y fino que se sostuviera sobre el piso sin caer por el viento. En segundo lugar, todos los sitios donde se efectuaron las mediciones tenían, al menos, un ser no-humano (ya sea un minino o un can). La naturaleza inquieta de tales alimañas provocaba que, de haber sido elegido un gnomon inestable, éste podría haber sido tirado al suelo. Si bien esto no hubiese, en definitiva, alterado los resultados de las mediciones, la interacción entre la mascota y el gnomon hubiese sido cuanto menos molesta teniendo en cuenta que había que realizar varias mediciones sucesivas. Para el día del equinoccio, esto hubiese implicado más desplazamientos del susodicho gnomon que los que la ya de por sí caprichosa geometría del lugar nos impuso, lo cual hubiese dificultado sobremanera que podamos percibir la trayectoria rectilínea que la sombra realizó a lo largo del piso del balcón.</p>
 <p class="texto">Siguiendo con lo expuesto en el párrafo anterior, la forma poco conveniente de los gnomones utilizados ocasionó, a su vez, que las sombras fueran difusas (y arduas) de medir. Esto fue una de las causas de error, en particular de las mediciones 2 y 3.</p>
 <p class="texto">Y, por último, la mínima apreciación del instrumento de medición (1mm) puede haber tenido una muy pequeña influencia en los errores de medición (en relación a los demás factores de incerteza presentes en las mediciones).</p>
+<p class="texto">Para concluir el Trabajo Práctico de la Latitud del lugar, deseamos afirmar que, según nuestras mediciones y cálculos (no exentas de errores, pero tampoco de afecto), la latitud promedio calculada de las tres mediciones realizadas en diferentes días es 35°44’, con un error de 1° 8’ respecto a la real.</p>
+{% endblock %}

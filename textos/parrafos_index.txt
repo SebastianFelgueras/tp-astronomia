@@ -1,7 +1,8 @@
-La tercera (y última) medición que realizamos la hicimos durante el equinoccio, que este año sucedió el 22 de septiembre.
-Al igual que las otras dos se hizo en la Ciudad de Buenos Aires y, gracias al Stellarium sabemos que la declinación del sol fue de 55º 27' y su culminación superior fue a los - 0º 3'
-Durante la toma de mediciones, se presentaron varios inconvenientes que nos forzaron a mover el gnomon. Estos fueron la superposición de la sombra del gnomon con otras varias sombras pertenecientes a la estructura del balcón. Sin embargo, igualmente se puede observar a partir de las imágenes que se encuentran aquí debajo, que la sombra del sol a lo largo del día trazó una línea recta con dirección Este-Oeste.
-Aquí a continuación se encuentran las imágenes y la tabla con las mediciones y la altura del sol calculada.
-TABLA
-IMAGENES
-VIDEO/GIF
+En este apartado procederemos a explicar las distintas causas de error experimental que surgieron durante las mediciones.
+Medición 1 = 0,72%
+Medición 2 = 4,91%
+Medición 3 - Equinoccio = 4,14%
+Por un lado, es importante tener en cuenta que en las mediciones 2 y 3 (especialmente en esta última) fueron realizadas en balcones donde el acceso a luz era a veces bloqueado por barandas, rejas y diversos obstáculos. Esto provocó que fuera complejo distinguir la sombra del gnomon de las otras.
+Por otro lado, es cierto que el ancho de los gnomones no fue el ideal: deberían haber sido más finos. Sin embargo, hay más de una justificación para esta lamentable situación. En primer lugar, resultaba de suma dificultad hallar un objeto largo y fino que se sostuviera sobre el piso sin caer por el viento. En segundo lugar, todos los sitios donde se efectuaron las mediciones tenían, al menos, un ser no-humano (ya sea un minino o un can). La naturaleza inquieta de tales alimañas provocaba que, de haber sido elegido un gnomon inestable, éste podría haber sido tirado al suelo. Si bien esto no hubiese, en definitiva, alterado los resultados de las mediciones, la interacción entre la mascota y el gnomon hubiese sido cuanto menos molesta teniendo en cuenta que había que realizar varias mediciones sucesivas. Para el día del equinoccio, esto hubiese implicado más desplazamientos del susodicho gnomon que los que la ya de por sí caprichosa geometría del lugar nos impuso, lo cual hubiese dificultado sobremanera que podamos percibir la trayectoria rectilínea que la sombra realizó a lo largo del piso del balcón.
+Siguiendo con lo expuesto en el párrafo anterior, la forma poco conveniente de los gnomones utilizados ocasionó, a su vez, que las sombras fueran difusas (y arduas) de medir. Esto fue una de las causas de error, en particular de las mediciones 2 y 3.
+Y, por último, la mínima apreciación del instrumento de medición (1mm) puede haber tenido una muy pequeña influencia en los errores de medición (en relación a los demás factores de incerteza presentes en las mediciones).
